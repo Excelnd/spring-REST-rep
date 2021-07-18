@@ -25,7 +25,8 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.5</version>
+<!-- 			<version>2.9.5</version> -->
+	 			<version>2.9.2</version>
 		</dependency>
 
 		<!-- Add Servlet support for 
@@ -35,7 +36,14 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
-				 
+
+		<!-- Add JSP support for  to get rid of Eclipse error -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
+		</dependency>
+						 
 	</dependencies>
 
 	<!-- Support for Maven WAR Plugin -->
